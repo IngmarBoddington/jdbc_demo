@@ -1,0 +1,14 @@
+<dataset>
+    <AddressType addressTypeId="1" description="Work" />
+    <AddressType addressTypeId="2" description="Home" />
+    <AddressType addressTypeId="3" description="Mars" />
+    <Customer customerId="1" firstName="firstName1" lastname="lastname1" telephone="00000000000" email="email1@email.com" />
+    <Customer customerId="2" firstName="firstName2" lastname="lastname2" telephone="00000000001" email="email2@email.com" />
+    <Customer customerId="3" firstName="firstName3" lastname="lastname3" telephone="00000000002" email="email3@email.com" />
+    <Address addressId="1" customerId="1" typeId="1" firstLine="firstLine1" secondLine="secondLine1" thirdLine="thirdLine1" postcode="postcode1" />
+    <Address addressId="2" customerId="2" typeId="2" firstLine="firstLine2" secondLine="secondLine2" thirdLine="thirdLine2" postcode="postcode2" />
+    <Address addressId="3" customerId="3" typeId="3" firstLine="firstLine3" secondLine="secondLine3" thirdLine="thirdLine3" postcode="postcode3" />
+    <Account accountId="1" customerId="1" addressId="1" username="Username1" password="Password1" createdDate="2014-09-29" />
+    <Account accountId="2" customerId="2" addressId="2" username="Username2" password="Password2" createdDate="2014-09-28" />
+    <Account accountId="3" customerId="3" addressId="3" username="Username3" password="Password3" createdDate="2014-09-27" />
+</dataset>
